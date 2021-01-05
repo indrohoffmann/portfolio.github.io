@@ -1,3 +1,19 @@
 p{
     color:red;
 }
+#navbar {
+    background-color: antiquewhite;
+    border: 1em solid black;
+}
+#info {
+    background-color: antiquewhite;
+    border: 1em solid black;
+}
+#linkit {
+    background-color: antiquewhite;
+    border: 1em solid black;
+}
+footer {
+    background-color: antiquewhite;
+    border: 1em solid black;
+}
