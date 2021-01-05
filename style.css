@@ -1,3 +1,9 @@
+/*oletuksena leveyden ja korkeuden asetukset sisältävät padding- ja border-ominaisuuksia*/
+* {
+    box-sizing: border-box;
+}
+
+
 p{
     color:red;
 }
