@@ -73,7 +73,7 @@
     }
 
     #infotext {
-        padding-top: 8em;
+        padding-top: 10em;
         padding-left: 6em;
         padding-right: 6em;
     }
@@ -86,7 +86,7 @@
     #publications {
         width: 33em;
         height: 27.5em;
-
+        /*border: solid black 1px;*/
     }
 
     .video1 {
@@ -123,6 +123,7 @@
     }
 
     #infoboxright li {
+        padding-top: 0.7em;
         font-family: 'Quattrocento', serif;
         font-size: 30spx;
     }
