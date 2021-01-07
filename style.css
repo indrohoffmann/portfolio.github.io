@@ -74,8 +74,8 @@
 
     #infotext {
         padding-top: 8em;
-        padding-left: 4em;
-        padding-right: 4em;
+        padding-left: 6em;
+        padding-right: 6em;
     }
 
     #projects {
@@ -119,8 +119,13 @@
 
     #infoboxright ul {
         list-style-type: none;
+
     }
 
+    #infoboxright li {
+        font-family: 'Quattrocento', serif;
+        font-size: 30spx;
+    }
 
 
 
