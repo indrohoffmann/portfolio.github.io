@@ -1,6 +1,7 @@
 html,
 body {
     height: 99%;
+    background-color: rgb(74, 74, 75);
 }
 
 * {
@@ -12,16 +13,25 @@ p {
     color: black;
 }
 
+#background {
+
+    /*position: absolute;
+    z-index: -1;
+    width: 119em;
+    height: 65em;*/
+}
+
 #wrapper {
     min-height: 100%;
     position: relative;
+
 }
 
 #navbar {
-    background-color: antiquewhite;
+    background-color: rgba(238, 234, 229, 0.986);
     padding: 1em;
     margin-bottom: 2em;
-    border: 0.2em solid black;
+    border-bottom: 0.1em solid black;
     height: 10em;
 }
 
@@ -57,8 +67,8 @@ nav {
 }
 
 .infobox {
-    background-color: rgb(167, 156, 143);
-    border: 0.2em solid black;
+    background-color: rgba(238, 234, 229, 0.986);
+    border: solid black 0.1em;
     padding: 1em;
     margin-bottom: 2em;
 }
@@ -80,12 +90,63 @@ nav {
 }
 
 footer {
-    background-color: antiquewhite;
-    border: 0.2em solid blue;
+
+    border: 0.1em solid rgb(0, 0, 0);
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 6em;
     /* Height of the footer */
-    background: #6cf;
+    background: rgba(238, 234, 229, 0.986);
+}
+
+#contact {
+    padding-top: 0.6em;
+    float: right;
+    height: 6em;
+    width: 49.5%;
+
+}
+
+#socialmedia {
+    padding-top: 0.6em;
+    padding-left: 20em;
+    float: left;
+    height: 6em;
+    width: 45%;
+}
+
+/*socialmedia links*/
+.fa {
+    padding: 20px;
+    text-align: center;
+    margin: 5px 2px;
+    font-size: 30px;
+    width: 50px;
+    border-radius: 19%;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
 }
