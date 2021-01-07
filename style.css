@@ -1,152 +1,194 @@
-html,
-body {
-    height: 99%;
-    background-color: rgb(74, 74, 75);
-}
+    @import url('https://fonts.googleapis.com/css2?family=Quattrocento&display=swap');
 
-* {
-    box-sizing: border-box;
-    /*oletuksena leveyden ja korkeuden asetukset sisältävät padding- ja border-ominaisuuksia*/
-}
+    html,
+    body {
+        height: 99%;
+        background-color: rgb(74, 74, 75);
+    }
 
-p {
-    color: black;
-}
+    * {
+        box-sizing: border-box;
+        /*oletuksena leveyden ja korkeuden asetukset sisältävät padding- ja border-ominaisuuksia*/
+        font-family: 'Quattrocento', serif;
+    }
 
-#background {
-
-    /*position: absolute;
-    z-index: -1;
-    width: 119em;
-    height: 65em;*/
-}
-
-#wrapper {
-    min-height: 100%;
-    position: relative;
-
-}
-
-#navbar {
-    background-color: rgba(238, 234, 229, 0.986);
-    padding: 1em;
-    margin-bottom: 2em;
-    border-bottom: 0.1em solid black;
-    height: 10em;
-}
-
-nav {
-    padding-top: 3em;
-    padding-right: 20em;
-    float: right;
-}
-
-#logo {
-    display: inline-block;
-    position: relative;
-    overflow: hidden;
-    border-radius: 50%;
-    height: 15em;
-    width: 15em;
-    border: 5px solid black;
-}
-
-#logo img {
-    width: auto;
-    height: 120%;
-    margin-left: -6em;
-}
+    h1 {
+        font-family: arial;
+    }
 
 
 
-#mainbox {
-    overflow: auto;
+    #wrapper {
+        min-height: 100%;
+        position: relative;
 
-    padding-bottom: 6em;
-    /* Height of the footer */
-}
+    }
 
-.infobox {
-    background-color: rgba(238, 234, 229, 0.986);
-    border: solid black 0.1em;
-    padding: 1em;
-    margin-bottom: 2em;
-}
+    #navbar {
+        background-color: rgba(238, 234, 229, 0.986);
+        padding: 1em;
+        margin-bottom: 2em;
+        border-bottom: 0.1em solid black;
+        height: 10em;
+    }
 
-#infotext {
-    padding-top: 5em;
-}
+    nav {
+        padding-top: 3em;
+        padding-right: 20em;
+        float: right;
+    }
 
-#infoboxleft {
-    float: left;
-    width: 49.5%;
-    height: 45em;
-}
+    #logo {
+        display: inline-block;
+        position: relative;
+        overflow: hidden;
+        border-radius: 50%;
+        height: 15em;
+        width: 15em;
+        border: 5px solid black;
+    }
 
-#infoboxright {
-    float: right;
-    width: 49.5%;
-    height: 45em;
-}
+    #logo img {
+        width: auto;
+        height: 120%;
+        margin-left: -6em;
+    }
 
-footer {
 
-    border: 0.1em solid rgb(0, 0, 0);
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 6em;
-    /* Height of the footer */
-    background: rgba(238, 234, 229, 0.986);
-}
 
-#contact {
-    padding-top: 0.6em;
-    float: right;
-    height: 6em;
-    width: 49.5%;
+    /*created main box for footer to stay always bottom of the page*/
+    #mainbox {
+        overflow: auto;
 
-}
+        padding-bottom: 6em;
+        /* Height of the footer */
 
-#socialmedia {
-    padding-top: 0.6em;
-    padding-left: 20em;
-    float: left;
-    height: 6em;
-    width: 45%;
-}
+    }
 
-/*socialmedia links*/
-.fa {
-    padding: 20px;
-    text-align: center;
-    margin: 5px 2px;
-    font-size: 30px;
-    width: 50px;
-    border-radius: 19%;
-}
+    .infobox {
+        background-color: rgba(238, 234, 229, 0.986);
+        border: solid black 0.1em;
+        padding: 1em;
+        margin-bottom: 2em;
+    }
 
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-}
+    #infotext {
+        padding-top: 8em;
+        padding-left: 4em;
+        padding-right: 4em;
+    }
 
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-}
+    #projects {
 
-.fa-linkedin {
-    background: #007bb5;
-    color: white;
-}
+        height: 15em;
+    }
 
-.fa-instagram {
-    background: #125688;
-    color: white;
-}
+    #publications {
+        width: 33em;
+        height: 27.5em;
 
-.fa-youtube {
-    background: #bb0000;
-    color: white;
-}
+    }
+
+    .video1 {
+
+        height: 10em;
+        width: 15em;
+
+
+    }
+
+    .video2 {
+
+        height: 10em;
+        width: 15em;
+        float: right;
+
+    }
+
+    #infoboxleft {
+        float: left;
+        width: 49.5%;
+        height: 45em;
+    }
+
+    #infoboxright {
+        float: right;
+        width: 49.5%;
+        height: 45em;
+    }
+
+    #infoboxright ul {
+        list-style-type: none;
+    }
+
+
+
+
+
+    footer {
+
+        border: 0.1em solid rgb(0, 0, 0);
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 6em;
+        /* Height of the footer */
+        background: rgba(238, 234, 229, 0.986);
+    }
+
+    #socialmedia {
+        padding-top: 0.6em;
+        padding-left: 20em;
+        float: left;
+        height: 6em;
+        width: 43.5%;
+
+    }
+
+    /*socialmedia links*/
+    .fa {
+        padding: 20px;
+        text-align: center;
+        margin: 5px 2px;
+        font-size: 30px;
+        width: 50px;
+        border-radius: 24%;
+    }
+
+    .fa:hover {
+        opacity: 0.5;
+    }
+
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+    }
+
+    .fa-twitter {
+        background: #55ACEE;
+        color: white;
+    }
+
+    .fa-linkedin {
+        background: #007bb5;
+        color: white;
+    }
+
+    .fa-instagram {
+        background: #125688;
+        color: white;
+    }
+
+    .fa-youtube {
+        background: #bb0000;
+        color: white;
+    }
+
+    #contact {
+        padding-top: 0.6em;
+        float: left;
+        height: 6em;
+        width: 15em;
+
+        text-align: center;
+    }
