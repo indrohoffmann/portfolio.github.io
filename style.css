@@ -30,7 +30,7 @@
     }
 
     #navbar {
-        background-color: #808e9b;
+        background-color: #485460;
         padding: 1em;
         margin-bottom: 2em;
         border-bottom: 0.1em solid black;
@@ -98,6 +98,10 @@
         height: 15em;
     }
 
+    #projects li {
+        margin: 1em 0;
+    }
+
     #publications {
         width: 33em;
         height: 24em;
@@ -131,6 +135,7 @@
         float: right;
         width: 49.5%;
         height: 45em;
+        padding-left: 4em;
     }
 
     #infoboxright ul {
@@ -142,6 +147,7 @@
         padding-top: 0.7em;
         font-family: 'Quattrocento', serif;
         font-size: 30spx;
+
     }
 
 
@@ -214,4 +220,9 @@
         width: 15em;
 
         text-align: center;
+    }
+
+    #contact p {
+        font-size: 12pt;
+        margin: 0;
     }
