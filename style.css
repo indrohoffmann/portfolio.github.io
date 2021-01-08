@@ -51,6 +51,7 @@
         height: 15em;
         width: 15em;
         border: 5px solid black;
+        opacity: 0.2;
     }
 
     #logo img {
