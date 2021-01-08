@@ -1,0 +1,14 @@
+fieldset {
+    background-color: azure;
+}
+
+label {
+    color: rgb(46, 66, 66);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+legend {
+    color: crimson;
+    font-family: cursive;
+}
