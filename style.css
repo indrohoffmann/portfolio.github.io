@@ -50,6 +50,7 @@
         margin-bottom: 2em;
         border-bottom: 0.1em solid black;
         height: 10em;
+        border-radius: 0.5em;
 
     }
 
@@ -95,22 +96,21 @@
         border: solid black 0.1em;
         padding: 1em;
         margin-bottom: 2em;
+        border-radius: 0.5em;
     }
 
     .tab {
         text-indent: 30px;
     }
 
-    span {
-        font-size: 13pt;
-    }
+
 
     #infotext {
 
         padding-top: 13em;
         padding-left: 6em;
         padding-right: 6em;
-
+        border-radius: 0.5em;
     }
 
     #projects {
@@ -151,6 +151,7 @@
         float: left;
         width: 49.5%;
         height: 45em;
+        letter-spacing: 0.9pt;
     }
 
     #infoboxright {
@@ -158,6 +159,7 @@
         width: 49.5%;
         height: 45em;
         padding-left: 4em;
+        letter-spacing: 0.9pt;
     }
 
     #infoboxright ul {
@@ -185,6 +187,8 @@
         height: 6em;
         /* Height of the footer */
         background: #808e9b;
+        border-radius: 0.5em;
+        letter-spacing: 0.9pt;
     }
 
     #socialmedia {
