@@ -17,18 +17,50 @@
         <!--Wrapper is used for pushing footer bottom of the page -->
 
         <div id="navbar">
+            <nav>
+
+                <!--<button id="contactBtn">Contact me</button>-->
+
+            </nav>
             <div id="logo">
                 <img src="media/profileefekt.jpg" alt="Indro profile picture" />
             </div>
-            <nav>
-                <a href="contactform/contactform.html" id="minucontact">Contactpopup</a>
-            </nav>
+
         </div>
 
         <div id="mainbox">
-            <div class="infobox" id="infoboxleft">
-                <div id="infotext">
 
+            <div id="contactBox">
+
+
+                <button id="contactCloseBtn">Close</button>
+                <form id="contactform" method="post" action="mailto:hoffmannindro@gmail.com">
+                    <fieldset>
+                        <h2>Contact</h2>
+                        <br>
+                        <label for="name">Your name</label>
+                        <input type="text" id="name" name="name" value>
+                        <div id="emailbox">
+                            <label for="email">Your email</label>
+                            <input type="text" id="email" name="email" value="">
+                        </div>
+                        <br><br>
+                        <label for="message">Message</label><br>
+                        <input type="text" id="message" name="message" value=""><br><br>
+
+                        <input id="send" type="submit" value="Send message">
+                    </fieldset>
+                </form>
+
+
+            </div>
+
+
+
+            <div class="infobox" id="infoboxleft">
+
+
+                <div id="infotext">
 
                     <p class="tab">I have started to learn front end web-development in Taitotalo, Finland.
                         I am interested to learn everything about modern web development using html, css and Js.
@@ -50,25 +82,29 @@
 
 
                 <div id="projects">
-                    <h1>Projects</h1>
+                    <ul>
+                        <li>
+                            <h1>Projects</h1>
+                        </li>
 
-                    <!--My project links are collected here-->
+                        <!--My project links are collected here-->
 
-                    <li><a href="tehtävä1/kuvasivu.html">Tehtävä</a></li>
+                        <li><a href="tehtävä1/kuvasivu.html">Tehtävä</a>
+                        </li>
 
-                    <li><a href="https://marvelapp.com/signin?next=/project/5326870/design/74669882"
-                            target="_blank">Marvel</a>
-                    </li>
+                        <li><a href="https://marvelapp.com/signin?next=/project/5326870/design/74669882"
+                                target="_blank">Marvel</a>
+                        </li>
 
-                    <li><a href="https://indrohoffmann.github.io/portfolio.github.io/" target="_blank">Github
-                            projects</a></li>
+                        <li><a href="https://indrohoffmann.github.io/portfolio.github.io/" target="_blank">Github
+                                projects</a></li>
 
-                    <li><a href=lomakesivu/lomakesivu.html>Lomakesivu </a> </li> </div> <div id="publications">
-                            <h1>Publications</h1>
-                            <iframe class="video1" src="https://www.youtube.com/embed/nzRfow8yVnU"
-                                allowfullscreen></iframe>
-                            <iframe class="video2" src="https://www.youtube.com/embed/W_66KHOorl4"
-                                allowfullscreen></iframe>
+                        <li><a href=lomakesivu/lomakesivu.html>Lomakesivu </a> </li> </div> <div id="publications">
+
+                    </ul>
+                    <h1>Publications</h1>
+                    <iframe class="video1" src="https://www.youtube.com/embed/nzRfow8yVnU" allowfullscreen></iframe>
+                    <iframe class="video2" src="https://www.youtube.com/embed/W_66KHOorl4" allowfullscreen></iframe>
                 </div>
 
 
@@ -98,6 +134,7 @@
 
         </footer>
     </div>
+    <script src="scriptti.js"></script>
 </body>
 
 </html>
