@@ -4,8 +4,9 @@
     html,
     body {
         height: 99%;
+        background-image: url(media/Talv.jpeg);
         /*For avoiding scrollbar*/
-        background-color: #e2e2e2;
+        /*background-color: #e2e2e2;*/
     }
 
     * {
@@ -145,7 +146,7 @@
 
         height: 10em;
         width: 15em;
-        float: 50%;
+
 
     }
 
@@ -170,7 +171,7 @@
     #infoboxright li {
         padding-top: 0.7em;
         font-family: 'Quattrocento', serif;
-        font-size: 30spx;
+
 
     }
 
@@ -293,7 +294,7 @@
         border: none;
         margin: 0;
         padding: 0;
-        background-color: #a1b9ce;
+        background-color: #91acc2;
 
     }
 
