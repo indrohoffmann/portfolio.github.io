@@ -15,18 +15,18 @@
 <body>
     <div id="wrapper">
         <!--Wrapper is used for pushing footer bottom of the page -->
-
+        <div id="logo">
+            <img src="media/profileefekt.jpg" alt="Indro profile picture" />
+        </div>
         <div id="navbar">
             <nav>
 
                 <button id="contactBtn">Contact me</button>
 
             </nav>
-            <div id="logo">
-                <img src="media/profileefekt.jpg" alt="Indro profile picture" />
-            </div>
 
         </div>
+
 
         <div id="mainbox">
 
@@ -63,7 +63,7 @@
                     var email = document.getElementById('email').value
                     var message = document.getElementById('message').value
 
-                    fetch("vunki.eu:8000/mail", {
+                    fetch("https://vunki.eu:8000/mail", {
                             method: 'POST',
                             message: JSON.stringify({
                                 title: name,

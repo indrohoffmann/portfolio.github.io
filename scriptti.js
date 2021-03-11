@@ -1,7 +1,3 @@
-fetch('vunki.eu:8000/mail')
-    .then(res => console.log(res))
-
-
 var contactBtn = document.getElementById('contactBtn');
 var closeWindow = document.getElementById('contactCloseBtn');
 

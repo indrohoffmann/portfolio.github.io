@@ -4,7 +4,12 @@
     html,
     body {
         height: 99%;
+
         background-image: url(media/Talv.jpeg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+
         /*For avoiding scrollbar*/
         /*background-color: #e2e2e2;*/
     }
@@ -49,8 +54,13 @@
         background-color: #5983a7;
         padding: 1em;
         margin-bottom: 2em;
-
+        border-radius: 0.4em;
         height: 10em;
+        opacity: 70%;
+
+
+
+
 
     }
 
@@ -65,13 +75,14 @@
 
     #logo {
         display: inline-block;
-        position: relative;
+        position: absolute;
         overflow: hidden;
         border-radius: 50%;
         height: 15em;
         width: 15em;
         border: 7px solid #ff914d;
-        opacity: 0.8;
+        z-index: 1;
+
 
     }
 
@@ -87,7 +98,6 @@
     /*created main box for footer to stay always bottom of the page*/
     #mainbox {
         overflow: auto;
-
         padding-bottom: 6em;
         /* Height of the footer */
 
@@ -98,6 +108,8 @@
         border: none;
         padding: 1em;
         margin-bottom: 2em;
+        border-radius: 0.4em;
+        opacity: 0.8;
     }
 
     .tab {
@@ -154,6 +166,7 @@
         float: left;
         width: 49.5%;
         height: 45em;
+
     }
 
     #infoboxright {
@@ -188,6 +201,8 @@
         height: 6em;
         /* Height of the footer */
         background: #5983a7;
+        border-radius: 0.4em;
+        opacity: 70%;
     }
 
     #socialmedia {
@@ -254,6 +269,7 @@
     #contact p {
         font-size: 12pt;
         margin: 0;
+
     }
 
 
@@ -272,6 +288,9 @@
 
     #contactBtn {
         position: relative;
+
+
+
     }
 
     #contactCloseBtn {
