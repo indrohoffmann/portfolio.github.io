@@ -1,6 +1,7 @@
 var contactBtn = document.getElementById('contactBtn');
 var closeWindow = document.getElementById('contactCloseBtn');
 var contactConfirm = document.getElementById('contactConfirm');
+var confirmClosetBtn = document.getElementById('confirmCloseBtn')
 
 contactBtn.onclick = function () {
     document.getElementById('contactBox').style.display = "block";
@@ -32,12 +33,15 @@ contactform.addEventListener('submit', function (e) {
         .then(function (response) {
             if (response.status == 200) {
                 console.log('Mail sent')
-                contactConfirm.classList.add('open');
+                document.getElementById('contactConfirm').style.display = "block";
             } else {
                 response.json().then(function (data) {
                     console.log(data.error)
                 })
             }
         })
-
+    confirmClosetBtn.onclick = function () {
+        document.getElementById('contactConfirm').style.display = "none";
+        document.getElementById('contactBox').style.display = "none";
+    }
 })

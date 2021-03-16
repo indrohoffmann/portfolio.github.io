@@ -273,24 +273,19 @@
 
     }
 
-
     #contactBox {
         top: 10%;
         left: 25%;
         color: rgb(13, 14, 13);
-
         border: 1px solid black;
         display: none;
         position: absolute;
         box-shadow: 20px 20px 500px 100px rgb(53, 50, 50);
 
-
     }
 
     #contactBtn {
         position: relative;
-
-
 
     }
 
@@ -299,9 +294,6 @@
         right: 2%;
         top: 2%;
     }
-
-
-
 
     #message {
         width: 50em;
@@ -323,6 +315,7 @@
         width: 55%;
     }
 
+
     #contactConfirm {
         width: 25em;
         height: 25em;
@@ -336,9 +329,7 @@
         box-shadow: 20px 20px 500px 100px rgb(53, 50, 50);
     }
 
-    #contactConfirm.open {
-        display: block;
-    }
+
 
     #confirmCloseBtn {
 
