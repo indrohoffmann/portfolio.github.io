@@ -3,6 +3,7 @@ var closeWindow = document.getElementById('contactCloseBtn');
 var contactConfirm = document.getElementById('contactConfirm');
 var confirmClosetBtn = document.getElementById('confirmCloseBtn')
 
+
 contactBtn.onclick = function () {
     document.getElementById('contactBox').style.display = "block";
     /* body.classList.add('backStyle');*/
@@ -43,5 +44,6 @@ contactform.addEventListener('submit', function (e) {
     confirmClosetBtn.onclick = function () {
         document.getElementById('contactConfirm').style.display = "none";
         document.getElementById('contactBox').style.display = "none";
+
     }
 })
