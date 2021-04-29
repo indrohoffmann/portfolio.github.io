@@ -339,3 +339,48 @@
 
 
     }
+
+    .gameContent {
+        display: block;
+        padding: 2rem;
+        margin: 2rem auto;
+        width: 90%;
+        height: max-content;
+        background-color: rgb(237, 244, 245);
+        border-color: orange;
+    }
+
+    #animation1 {
+        background-color: orangered;
+        width: 100px;
+        height: 100px;
+        margin: 1rem auto;
+        animation: 2s circle infinite alternate;
+    }
+
+    @keyframes circle {
+        0% {
+            border-radius: 0%;
+        }
+
+        100% {
+            border-radius: 100%;
+            background-color: black;
+        }
+    }
+
+    #transition1 {
+        background: rgb(62, 146, 125);
+        width: 100px;
+        height: 100px;
+        margin: 2rem auto;
+        transition-duration: 800ms;
+        transition-property: background, transform;
+        transition-timing-function: ease-in;
+
+    }
+
+    #transition1:hover {
+        background: brown;
+        transform: rotate(45deg);
+    }
